@@ -1,6 +1,8 @@
 import * as React from 'react'
 import { signOut } from 'firebase/auth'
 import { auth } from '../credenciales'
+import Sidebar from '../components/Sidebar';
+
 
 export default function Home({
   user,
@@ -19,17 +21,13 @@ export default function Home({
 
 
   return (
-    <div className=' flex xlex-col items-center text-5xl  font-bold  text-center'>
-      pantalla Home
-      <p></p>
-      {user}
-      <p></p>
-      <button
-           onClick={singOutHandler}
-      className='w-40 active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all py-3 rounded-xl bg-blue-500	 text-white text-lg text-bold'>
-      Cerrar Sesión </button>
+    <div className='grid grid-cols-6 min-h-screen'>
+        <Sidebar/>
+      
 
     </div>
+
+
   )
 }
 
