@@ -24,7 +24,7 @@ export default function Registro({
     }
 
     return(
-        <div className='bg-primary-100	 px-10 py-50 rounded-3xl border-2 border-gray-100'>
+        <div className='bg-primary-200	 px-10 py-50 rounded-3xl border-2 border-gray-100'>
             <h1 className='te xt-5xl font-semibold text-center'>Registrate</h1>
             <p className='font-medium txt-lg text-gray-500 mt-4 text-center'>Bienvenido Ingresa tus Datos</p>
             <div className='mt-8'>

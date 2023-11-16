@@ -5,7 +5,7 @@ export default function Form({
     setAuthState
 }) {
     return(
-        <div className='bg-primary-100	 px-10 py-50 rounded-3xl border-2 border-gray-100'>
+        <div className=' bg-primary-900	 px-10 py-50 rounded-3xl border-2 border-gray-100'>
             <h1 className='text-5xl font-semibold text-center'>SIGES </h1>
             <p className='font-medium txt-lg text-gray-500 mt-4 text-center'>Bienvenido Ingresa tus Datos</p>
             <div className='mt-8'>
