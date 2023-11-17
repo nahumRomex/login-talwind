@@ -3,6 +3,7 @@ import { signOut } from "firebase/auth";
 import { auth } from "../credenciales";
 import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
+import { RiMapPinTimeFill } from "react-icons/ri";
 
 export default function Home({ user, setAuthState, setUser }) {
   const singOutHandler = () => {
@@ -18,19 +19,18 @@ export default function Home({ user, setAuthState, setUser }) {
     <div>
       <div className="grid grid-cols-6 min-h-screen">
         <Sidebar />
-        <div>
-          <div>
-          <button
-            onClick={singOutHandler}
-            className="w-40 active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all py-3 rounded-xl bg-blue-500	 text-white text-lg text-bold ">
-            Cerrar Sesión
-          </button>
-          </div>
-          <main className="lg:col-span-3 xl:col-span-5 p-8">
+        <div className="lg:col-span-3 xl:col-span-5 bg-gray-100 p-8 mt-10">
+          <main>
             <Header />
+            <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10">
+              <div className=" bg-primary-900 p-8 rounded-xl text-white flex flex-col gap-2">
+                <RiMapPinTimeFill className="text-3xl"/>
+                <h4 className="text-2xl ">Pendientes</h4>
+              </div>
+            </section>
           </main>
         </div>
       </div>
     </div>
   );
-};
+}

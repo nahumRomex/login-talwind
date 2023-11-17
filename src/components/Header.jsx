@@ -1,18 +1,11 @@
 import React from 'react'
-import {
-  RiHome2Line,
-  RiArchiveDrawerFill,
-  RiCalendar2Fill,
-  RiCustomerService2Fill,
-  RiFolderSettingsFill,
-  RiMenu3Fill,
-  RiCloseFill
-} from "react-icons/ri";
+
 
 const Header = () => {
   return (
-    <header>
-      <h1>Bienvenido Nahúm11</h1>
+    <header className='flex flex-col md:flex-row items-center justify-between gap-4'>
+      <h1 className='text-2xl md:text-3xl font-bold'>
+        Bienvenido Nahúm11</h1>
     </header>
   )
 }
