@@ -25,7 +25,7 @@ const handleLogin = () => {
 }
   
   return (
-    <div className=" bg-slate-950 flex w-full h-screen">
+    <div className=" bg-primary-900 flex w-full h-screen">
       <div className="w-full flex items-center justify-center lg:w-1/2">
       <div className='bg-primary-200	 px-10 py-50 rounded-3xl border-2 border-gray-100'>
             <h1 className='text-5xl font-semibold text-center'>SIGES </h1>

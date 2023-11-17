@@ -52,7 +52,7 @@ const Sidebar = () => {
           </nav>
 
         </div>
-
+          
       </div>
       {/* boton mobile */}
 
