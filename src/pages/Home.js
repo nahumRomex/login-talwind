@@ -5,15 +5,7 @@ import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
 import { RiMapPinTimeFill } from "react-icons/ri";
 
-export default function Home({ user, setAuthState, setUser }) {
-  const singOutHandler = () => {
-    signOut(auth)
-      .then(() => {
-        setUser(null);
-        setAuthState("login");
-      })
-      .catch((err) => console.log(err));
-  };
+export default function Home() {
 
   return (
     <div>
