@@ -24,6 +24,7 @@ export default function Registro({
     }
 
     return(
+            <div className='flex justify-center items-center h-screen'>
         <div className='bg-primary-200	 px-10 py-50 rounded-3xl border-2 border-gray-100'>
             <h1 className='te xt-5xl font-semibold text-center'>Registrate</h1>
             <p className='font-medium txt-lg text-gray-500 mt-4 text-center'>Bienvenido Ingresa tus Datos</p>
@@ -78,6 +79,6 @@ export default function Registro({
                     <button className='text-violet-500 text-base font-medium ml-2'>Regitrate</button>
                 </div>
             </div>
-        </div>
+        </div></div>
     )
 }

@@ -65,7 +65,7 @@ export default function Sidebar ({ user, setAuthState, setUser }) {
           <div>
           <button
             onClick={singOutHandler}
-            className="w-40 active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all py-3 rounded-xl bg-blue-500	 text-white text-lg text-bold ">
+            className="w-40 active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all py-1 rounded-xl bg-blue-500	 text-white text-lg text-bold ">
             Cerrar Sesión
           </button>
           </div>
