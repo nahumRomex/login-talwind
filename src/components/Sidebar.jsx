@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import { signOut } from "firebase/auth";
 import { auth } from "../credenciales";
-import userimg from '../imgenes/user.jpg'
+import userimg from '../imgenes/user.jpg';
+import Servicios from '../pages/Servicios';
 // iconos
 import {
   RiHome2Line,
@@ -57,7 +58,7 @@ export default function Sidebar ({ user, setAuthState, setUser }) {
             transition-colors'>
               <RiFolderSettingsFill /> Procesos
             </a>
-            <a href='#' className='flex items-center gap-4 text-black py-2 px-4 rounded-xl hover:bg-primary-900/50
+            <a href= "" className='flex items-center gap-4 text-black py-2 px-4 rounded-xl hover:bg-primary-900/50
             transition-colors'>
               <RiCustomerService2Fill /> Servicios
             </a>
