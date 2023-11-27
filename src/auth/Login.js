@@ -48,7 +48,7 @@ function Login({ setAuthState, setUser }) {
               />
             </div>
             <div className="mt-8 flex justify-between items-center">
-              <button className=" rounded-md font-medium text-base text-black-50 hover:bg-primary-900">
+              <button className=" rounded-md font-medium text-base text-black-50 hover:underline">
                 Recuperar Contraseña
               </button>
             </div>
@@ -64,7 +64,7 @@ function Login({ setAuthState, setUser }) {
               <p className="font-medium text-base">No tienes cuenta?</p>
               <button
                 onClick={() => setAuthState("registro")}
-                className="text-black text-base font-medium ml-2 hover:bg-primary-900 rounded-sm">
+                className="text-black text-base font-medium ml-2 hover:underline rounded-sm">
                 Regitrate
               </button>
             </div>

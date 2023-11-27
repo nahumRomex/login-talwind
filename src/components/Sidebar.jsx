@@ -43,23 +43,23 @@ export default function Sidebar ({ user, setAuthState, setUser }) {
         <div className=' bg-primary-200 p-8 rounded-tr-[100px] h-[70vh]  flex flex-col justify-between gap-6'>
           <nav className='flex flex-col gap-8'>
             <a href='#' className='flex items-center gap-4 text-black py-2 px-4 rounded-xl hover:bg-primary-900/50
-            transition-colors'>
+            transition-colors hover:underline'>
               <RiHome2Line /> Home
             </a>
             <a href='#' className='flex items-center gap-4 text-black py-2 px-4 rounded-xl hover:bg-primary-900/50
-            transition-colors'>
+            transition-colors hover:underline'>
               <RiArchiveDrawerFill /> Solicitudes
             </a>
             <a href='#' className='flex items-center gap-4 text-black py-2 px-4 rounded-xl hover:bg-primary-900/50
-            transition-colors'>
+            transition-colors hover:underline'>
               <RiCalendar2Fill /> Calendario
             </a>
             <a href='#' className='flex items-center gap-4 text-black py-2 px-4 rounded-xl hover:bg-primary-900/50
-            transition-colors'>
+            transition-colors hover:underline'>
               <RiFolderSettingsFill /> Procesos
             </a>
             <a href= "" className='flex items-center gap-4 text-black py-2 px-4 rounded-xl hover:bg-primary-900/50
-            transition-colors'>
+            transition-colors hover:underline'>
               <RiCustomerService2Fill /> Servicios
             </a>
           </nav>
